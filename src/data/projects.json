@@ -1,0 +1,10 @@
+[
+    {
+      "title": "PORTFOLIO",
+      "imageSrc": "projects/portfolioCover.png",
+      "description": "This is a project made to showcase my skills on the frontend.",
+      "skills": ["React", "HTML", "CSS"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+]
