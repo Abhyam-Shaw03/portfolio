@@ -2,7 +2,7 @@
 
 export const getImageUrl = (path) => {
   const basePath = "/portfolio";
-  return `${basePath}/assets/${path}`;
+  return `/assets/${path}`;
 };
 
 /*

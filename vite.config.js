@@ -20,5 +20,5 @@ export default defineConfig({
       "@assets": "/assets", // Optional alias for easier imports
     },
   },
-  base: "/portfolio/",
+  // base: "/portfolio/",
 });
