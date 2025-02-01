@@ -9,7 +9,6 @@ export default defineConfig({
       localsConvention: "camelCase",
     },
   },
-  //the below server: and resolve: helped import images from assets as assets is outside public and src directory. Also some changes were made accordingly to utils.js
 
   server: {
     fs: {
@@ -21,5 +20,5 @@ export default defineConfig({
       "@assets": "/assets", // Optional alias for easier imports
     },
   },
-  base: "/portfolio/",
+  base: "/",
 });
