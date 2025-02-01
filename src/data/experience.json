@@ -6,7 +6,7 @@
       "endDate": "September, 2024",
       "experiences": ["Industry-level training and experience on Java and Advance Java including different Frameworks"],
       "imageSrc": "history/wipro.png",
-      "certificate": "/certificates/Wipro_Certificate.pdf"
+      "certificate": "/portfolio/certificates/Wipro_Certificate.pdf"
     },
     {
       "role": "Data Science Intern",
@@ -15,7 +15,7 @@
       "endDate": "July, 2024",
       "experiences": ["Trained in Python and Machine Learning, focusing on feature engineering, data preprocessing, and modelling"],
       "imageSrc": "history/ct.jpg",
-      "certificate": "/certificates/CT_Certificate.pdf"
+      "certificate": "/portfolio/certificates/CT_Certificate.pdf"
     },
     {
       "role": "Java Intern",
@@ -24,6 +24,6 @@
       "endDate": "September, 2023",
       "experiences": ["Number Guessing Game", "Atm Interface wih User interaction and OOPs"],
       "imageSrc": "history/codsoft.jpg",
-      "certificate": "/certificates/CS_Certificate.pdf"
+      "certificate": "/portfolio/certificates/CS_Certificate.pdf"
     }
 ]

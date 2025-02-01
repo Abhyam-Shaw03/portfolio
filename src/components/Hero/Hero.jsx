@@ -35,7 +35,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="/AbhyamShaw_Resume.pdf"
+            href="/portfolio/AbhyamShaw_Resume.pdf"
             download="AbhyamShaw_Resume.pdf"
             className={styles.downloadBtn}
           >

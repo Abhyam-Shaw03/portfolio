@@ -10,6 +10,7 @@ export default defineConfig({
     },
   },
   //the below server: and resolve: helped import images from assets as assets is outside public and src directory. Also some changes were made accordingly to utils.js
+
   server: {
     fs: {
       allow: [".."], // Allow access to parent directory
@@ -20,5 +21,5 @@ export default defineConfig({
       "@assets": "/assets", // Optional alias for easier imports
     },
   },
-  // base: "/portfolio/",
+  base: "/portfolio/",
 });
