@@ -7,8 +7,12 @@
   justify-content: space-between;
   margin-top: 49px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
+  /*Some experiments*/
+  /* background-color: #ff6b6b; */
+  padding: 25px;
+  border-radius: 20px;
 }
 
 .content {
@@ -47,6 +51,9 @@
   font-weight: bold;
   color: var(--color-primary);
   font-style: italic; /* Adjust to your theme */
+  font-size: 50px;
+  letter-spacing: 2px;
+  /* text-decoration: underline; */
 }
 
 /* Custom blinking cursor effect for react-simple-typewriter */
@@ -64,10 +71,11 @@
 }
 
 .description {
-  font-size: 30px;
+  font-size: 25px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
   color: gold;
+  letter-spacing: 1.5px;
 }
 
 .contactBtn, .downloadBtn {

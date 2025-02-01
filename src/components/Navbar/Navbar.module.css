@@ -5,16 +5,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding-top: 35px;
   z-index: 2;
   margin: 0 10%;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+}
+
+.title:hover {
+  transform: scale(1.5);
+  color: gold;
 }
 
 
@@ -36,6 +41,18 @@
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+}
+
+.menuItems li:hover {
+  transform: scale(1.25);
+  box-shadow: 0 10px 20px rgba(246, 193, 2, 0.805), 0 6px 15px rgba(0, 0, 0, 0.1);
+  background-color: gold;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+.menuItems a:hover {
+  color: black;
 }
 
 @media screen and (max-width: 830px) {

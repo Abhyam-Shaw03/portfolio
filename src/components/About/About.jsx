@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
+import VanillaTilt from "vanilla-tilt";
 
 const About = () => {
+  const imageRef = useRef(null);
+
+  useEffect(() => {
+    if (imageRef.current) {
+      VanillaTilt.init(imageRef.current, {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.5,
+      });
+    }
+  }, []);
+
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <img
+          ref={imageRef}
           src={getImageUrl("about/ownpic.jpg")}
           alt="me"
           className={styles.aboutImage}
